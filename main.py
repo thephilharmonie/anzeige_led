@@ -32,5 +32,9 @@ def led_array(dist):
 
     GPIO.output(PIN_LATCH, 1)
 
+#------------------------------------
+# Beispiel: Angenommen die Distanze (dist) würde 4 Einheiten betragen:
 
-led_array(4)
+dist= 4
+
+led_array(dist)
